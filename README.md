@@ -2,7 +2,7 @@
 
 An strictly local RAG-System (entry level) showing:
 
-- how to use local ollam to generate the embeddings
+- how to use local ollama to generate the embeddings
 - preprocessing the input document(s) using docling
 - chunking the document create the embeddings
 - create a collection in Milvus
