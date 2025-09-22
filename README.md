@@ -1,6 +1,6 @@
 # rag-docling-milvus-ollama
 
-An entry level strictly local RAG-System showing:
+An strictly local RAG-System (entry level) showing:
 
 - how to use local ollam to generate the embeddings
 - preprocessing the input document(s) using docling
