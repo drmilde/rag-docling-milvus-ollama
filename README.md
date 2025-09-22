@@ -1,7 +1,17 @@
 # rag-docling-milvus-ollama
 
+An entry level strictly local RAG-System showing:
 
-
+- how to use local ollam to generate the embeddings
+- preprocessing the input document(s) using docling
+- chunking the document create the embeddings
+- create a collection in Milvus
+- store the embeddings in this collection
+- generate the embedding for the given question
+- get the top 3 matching answers frim the the database (Milvus)
+- define a structured user prompt, including the information of the 3 answers and the user question
+- use ollama to generate a natural language answer based on the given context
+   
 
 The code is based on the example by milvus.io on RAG with Milvus and Docling:
 
